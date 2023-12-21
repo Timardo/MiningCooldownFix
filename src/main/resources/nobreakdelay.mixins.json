@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.wolfoverflow.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"client": [
+		"Nobreakdelay"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
