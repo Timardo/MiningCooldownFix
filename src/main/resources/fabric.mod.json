@@ -1,34 +1,36 @@
 {
-	"schemaVersion": 1,
-	"id": "nobreakdelay",
-	"version": "${version}",
-	"name": "Nobreakdelay",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/nobreakdelay/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.wolfoverflow.Nobreakdelay"
-		]
-	},
-	"mixins": [
-		"nobreakdelay.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.14.24",
-		"minecraft": "~1.20.x",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+    "schemaVersion": 1,
+    "id": "miningcooldownfix",
+    "version": "${version}",
+    "name": "Mining Cooldown Fix",
+    "description": "Removes the client-side 5-tick delay when breaking blocks.",
+    "authors": [
+        "Covenant Turtle",
+        "Timardo"
+    ],
+    "license": "CC0-1.0",
+    "icon": "assets/miningcooldownfix/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.covenantturtle.miningcooldownfix.MiningCooldownFix"
+        ],
+        "client": [
+            "net.covenantturtle.miningcooldownfix.MiningCooldownFixClient"
+        ],
+        "modmenu": [
+            "net.covenantturtle.miningcooldownfix.config.ModMenuIntegration"
+        ]
+    },
+    "mixins": [
+        "miningcooldownfix.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.24",
+        "java": ">=17",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
 }

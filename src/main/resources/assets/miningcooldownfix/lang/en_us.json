@@ -1,0 +1,8 @@
+{
+    "key.miningcooldownfix.toggle": "Toggle Mining Cooldown",
+    "text.autoconfig.miningcooldownfix.title": "Minig Cooldown Fix Options",
+    "text.autoconfig.miningcooldownfix.option.miningCooldown": "Cooldown",
+    "text.autoconfig.miningcooldownfix.option.miningCooldown.@Tooltip": "The cooldown in ticks to use",
+    "text.autoconfig.miningcooldownfix.option.enabled": "Enabled",
+    "text.autoconfig.miningcooldownfix.option.enabled.@Tooltip": "Whether the mod is enabled (toggleable by a keybind)"
+}
